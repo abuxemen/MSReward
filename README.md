@@ -121,3 +121,9 @@
         }
     
     }
+
+**Shopping Trick**
+
+[Shopping from Microsoft Start (msn.com)](https://www.msn.com/en-us/shopping/)
+
+    javascript:var msnShoppingGamePane = document.querySelector("shopping-page-base") ?.shadowRoot.querySelector("shopping-homepage") ?.shadowRoot.querySelector("msft-feed-layout") ?.shadowRoot.querySelector("msn-shopping-game-pane"); msnShoppingGamePane.style.setProperty("grid-area", "slot1"); msnShoppingGamePane.setAttribute('gamestate', 'active'); if(msnShoppingGamePane != null){ msnShoppingGamePane.cardsPerGame = 1; msnShoppingGamePane.resetGame(); }
